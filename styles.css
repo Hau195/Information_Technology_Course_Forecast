@@ -1,0 +1,267 @@
+/* Custom Styles */
+body {
+  font-family: Montserrat,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #1a1a1a;
+  margin: 0;
+  --fa-secondary-color: #ffc629;
+  --fa-secondary-opacity: 1.0;
+
+}
+
+
+#headingOne.card-title {
+  background-color: gold;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+#headingOne .accordion-button {
+  background-color: gold; 
+  color: black;
+}
+
+#headingOne .accordion-button.collapsed {
+  background-color: gold; 
+  color: black;
+}
+
+.navbar-nav {
+    flex-wrap: nowrap; 
+}
+
+.list-group li{
+  background-color: white;
+  
+}
+
+.list-group-item a{
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.list-group-item.active{
+  background-color: gold;
+  border: gold;
+  color: black;
+}
+
+
+.navbar {
+margin-bottom: 20px;
+}
+
+.nav-item .nav-link {
+  white-space: nowrap; 
+}
+
+h2 {
+color: #003366; 
+margin-bottom: 20px;
+}
+
+footer {
+  background-color: #343a40; 
+  color: #fff;
+}
+
+footer a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+footer a:hover {
+  color: #ccc; 
+}
+
+footer h5 {
+  color: #fff; 
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.no-flex {
+  flex: 0 0 300px !important;
+  max-width: 300px !important;
+  width: 300px;
+}
+
+#aboutCard {
+    width: 100%;
+    max-width: 288px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    float: left;
+    position: relative;
+}
+
+#d48e93{
+  background: gold;
+}
+
+#tablelegend{
+  font-family: Montserrat,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  --fa-secondary-color: #ffc629;
+  --fa-secondary-opacity: 1.0;
+  align-items: center;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  background-color: #c4e1e9;
+  color: #1a1a1a;
+}
+
+
+table{
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+}
+
+.is_default {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Montserrat, sans-serif;
+}
+
+
+.is_default th {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  background-color: #ffc629 !important; 
+  color: #2d2926 !important; 
+}
+
+.is_default tbody {
+  background-color: #ffffff;
+  color: #2d2926; 
+}
+
+.is_default td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; 
+  text-align: left;
+}
+
+/* Add hover effect */
+.is_default tbody tr:hover {
+  background-color: #f5f5f5; 
+}
+
+
+/* Hover effect */
+.btn-info:hover {
+  background-color: #e68900 !important; 
+  border-color: #cc7700 !important;
+  color: #fff !important;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  font-size: small;
+}
+
+.btn{
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffc629;
+  color: #1a1a1a !important;
+  padding: .75rem 2rem;
+  margin: 1rem auto .5rem auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: .7rem;
+  border-radius: 9999px;
+  z-index: 1;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  line-height: initial;
+  letter-spacing: 2px;
+  border: none;
+  min-height: auto !important;
+}
+
+#undergrad_container{
+  font-family: Montserrat,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  --fa-secondary-color: #ffc629;
+  --fa-secondary-opacity: 1.0;
+  align-items: center;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  background-color: #cacccd;
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Accordion Styles */
+#undergrad_container .accordion-item {
+  margin-bottom: 15px;
+  border: 0px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#grad_container{
+  font-family: Montserrat,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  --fa-secondary-color: #ffc629;
+  --fa-secondary-opacity: 1.0;
+  align-items: center;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Heading Styles */
+#grad_container .heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Accordion Styles */
+#grad_container .accordion-item {
+  margin-bottom: 15px;
+  border: 0px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
