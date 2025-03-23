@@ -183,7 +183,7 @@ h4 {
   font-size: small;
 }
 
-.btn{
+.btn-info{
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -264,4 +264,23 @@ h4 {
   border: 0px solid #ddd;
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+  background-color: #FFC72C; /* Yellow background */
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+
+
+.nav-links {
+  background-color: #f8f9fa; /* Light gray background for nav links row */
+  padding: 10px 0;
+}
+
+#main_navigation_link {
+  gap: 20px; /* Spacing between links */
+  justify-content: center; /* Center-align links */
+  flex-wrap: wrap;
 }
